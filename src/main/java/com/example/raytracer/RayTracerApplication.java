@@ -11,7 +11,7 @@ public class RayTracerApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(RayTracerApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 780, 560);
+        Scene scene = new Scene(fxmlLoader.load(), 256, 256);
         stage.setTitle("Ray tracer");
         stage.setScene(scene);
         stage.show();
